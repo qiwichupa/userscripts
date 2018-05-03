@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name              RuTracker Magnet Cleaner
-// @version           0.6
+// @version           0.7
 // @description       Clears magnets, leaves only hashes (removes names etc.).
 // @description:ru    Очищает magnet-ссылки раздач, оставляет только hash (удаляет имя и т.д.).
 // @namespace         Violentmonkey Scripts
