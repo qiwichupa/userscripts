@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name              RuTracker Magnet Cleaner
-// @version           1.0
+// @version           1.1
 // @description       Clears magnets, leaves only hashes (removes names etc.).
 // @description:ru    Очищает magnet-ссылки раздач, оставляет только hash (удаляет имя и т.д.).
 // @homepage          https://github.com/qiwichupa/userscripts/blob/master/RuTracker_Magnet_Cleaner
@@ -11,9 +11,9 @@
 // @run-at            document-end
 // ==/UserScript==
 
-window.onload = function() {
+window.addEventListener('load', function() {
 var torrentHashElement = document.getElementById("tor-hash");
 var torrentHashValue = torrentHashElement.innerHTML;
 var MagnetLinkElement = torrentHashElement.parentNode;
 MagnetLinkElement.href = "magnet:?xt=urn:btih:" + torrentHashValue;
-}
+});
