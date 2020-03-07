@@ -93,7 +93,7 @@
             }
         /* "like", "dislike", "share", "add to" buttons */
             /* hide button names */
-                 #text.ytd-button-renderer{
+                 div#menu-container #text.ytd-button-renderer{
                     display: none;
                 }
                 /* sometimes it's "like"/"dislike" too */
@@ -106,10 +106,6 @@
                 }
 
         /* sponsor  button */
-            /* unhide text (see "hide button names" rules)  */
-                #sponsor-button ytd-button-renderer yt-formatted-string#text.ytd-button-renderer{
-                    display: block;
-                }
             /* zoom */
                 #sponsor-button{
                     zoom: 0.7;
@@ -171,8 +167,7 @@
 
         /* expand button */
             ytd-button-renderer#more-replies  yt-formatted-string#text{
-                display: block;
-                font-size: 1.1rem;
+                font-size: 1.2rem;
                 color: #128ee9;
             }
 
@@ -182,6 +177,9 @@
                 padding: .1rem;
             }
         /* reply button */
+			div#footer  div#buttons{
+				zoom: 0.8;
+			}
             ytd-comment-action-buttons-renderer paper-button.ytd-button-renderer {
                 padding: .2rem;
                 font-size: 1.1rem;
