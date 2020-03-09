@@ -75,7 +75,7 @@
 
     /* DROPDOWN MENU */
         .item.yt-dropdown-menu{
-            font-size: 1.4rem;
+            zoom:0.9;
         }
 
     /* UNDER VIDEO BLOCK */
@@ -96,12 +96,14 @@
                  div#menu-container #text.ytd-button-renderer{
                     display: none;
                 }
-                /* sometimes it's "like"/"dislike" too */
-                    #text.ytd-toggle-button-renderer {
+                /* hide "like"/"dislike" counters */
+                    /*
+					#text.ytd-toggle-button-renderer {
                         display: none;
                     }
+					*/
             /* buttons panel size */
-                div#info  > div:not(#info-text){
+                div#info  > div:not([id='info-text']){
                     zoom: 0.9;
                 }
 
