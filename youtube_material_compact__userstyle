@@ -109,7 +109,7 @@
 
         /* sponsor, analytics, subscribe  buttons */
             /* zoom */
-                #sponsor-button,
+				#sponsor-button,
 				#analytics-button,
 				#subscribe-button {
                     zoom: 0.7;
