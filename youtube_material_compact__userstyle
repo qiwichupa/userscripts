@@ -107,15 +107,14 @@
                     zoom: 0.9;
                 }
 
-        /* sponsor  button */
+        /* sponsor, analytics, subscribe  buttons */
             /* zoom */
-                #sponsor-button{
+                #sponsor-button,
+				#analytics-button,
+				#subscribe-button {
                     zoom: 0.7;
                 }
-        /* subscribe button */
-            #subscribe-button{
-                zoom: 0.7;
-            }
+
         /* description top line space */
             #top-row.ytd-video-secondary-info-renderer{
                 padding-top: 5px;
