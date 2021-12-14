@@ -1,10 +1,12 @@
 /* ==UserStyle==
-@name           Youtube Material Compact
-@namespace      userstyles.world
-@version        1.0.1
-@description    An attempt to restore compactness to a new Material Youtube
-@author         Sergey "Qiwichupa" Pavlov
+@name         Youtube Material Compact
+@version      20211214.07.51
+@namespace    userstyles.world/user/qiwichupa
+@description  An attempt to restore compactness to a new Material Youtube
+@author       qiwichupa
+@license      No License
 ==/UserStyle== */
+
 @-moz-document domain("youtube.com") {
 /* MAIN MENU */
     
