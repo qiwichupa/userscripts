@@ -1,6 +1,6 @@
 /* ==UserStyle==
 @name         Youtube Material Compact
-@version      20211214.07.51
+@version      20220223.13.12
 @namespace    userstyles.world/user/qiwichupa
 @description  An attempt to restore compactness to a new Material Youtube
 @author       qiwichupa
@@ -97,13 +97,16 @@
                  div#menu-container #text.ytd-button-renderer{
                     display: none;
                 }
-				/* dislike name */
-				div#menu-container ytd-toggle-button-renderer:nth-child(2) #text{
+		#text.ytd-download-button-renderer{
+			display: none;
+		}
+		/* dislike name */
+		div#menu-container ytd-toggle-button-renderer:nth-child(2) #text{
                     display: none;
                 }
                 /* hide "like"/"dislike" counters */
                     /*
-					#text.ytd-toggle-button-renderer {
+			#text.ytd-toggle-button-renderer {
                         display: none;
                     }
 					*/
