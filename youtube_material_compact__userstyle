@@ -1,6 +1,6 @@
 /* ==UserStyle==
 @name         Youtube Material Compact
-@version      20221101.12.01
+@version      20221101.13.07
 @namespace    userstyles.world/user/qiwichupa
 @description  An attempt to restore compactness to a new Material Youtube
 @author       qiwichupa
@@ -103,14 +103,8 @@
             }
         /* "like", "dislike", "share", "add to" buttons */
             /* hide button names */
-                 div#menu-container #text.ytd-button-renderer{
-                    display: none;
-                }
-				#text.ytd-download-button-renderer{
-					display: none;
-				}
-				/* dislike name */
-				div#menu-container ytd-toggle-button-renderer:nth-child(2) #text{
+
+               ytd-button-renderer  div.cbox.yt-spec-button-shape-next--button-text-content  {
                     display: none;
                 }
 
