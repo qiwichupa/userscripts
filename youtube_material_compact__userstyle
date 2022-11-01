@@ -1,6 +1,6 @@
 /* ==UserStyle==
 @name         Youtube Material Compact
-@version      20221101.13.07
+@version      20221101.18.43
 @namespace    userstyles.world/user/qiwichupa
 @description  An attempt to restore compactness to a new Material Youtube
 @author       qiwichupa
@@ -141,9 +141,12 @@
                 font-size: 1.2rem;
                 line-height: 1.6rem; 
             }
-        /* info box */
+        /* info box (content name/other videos) */
             ytd-metadata-row-container-renderer{
-                zoom: 0.1;
+                zoom: 0.7;
+            }
+            #text-container.ytd-rich-metadata-renderer > div{
+                font-size: 1.8rem;
             }
         /* items */
             div#items{
