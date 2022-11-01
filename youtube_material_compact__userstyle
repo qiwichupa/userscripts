@@ -1,6 +1,6 @@
 /* ==UserStyle==
 @name         Youtube Material Compact
-@version      20220912.01.40
+@version      20221101.12.01
 @namespace    userstyles.world/user/qiwichupa
 @description  An attempt to restore compactness to a new Material Youtube
 @author       qiwichupa
@@ -70,6 +70,8 @@
         div#primary.ytd-watch-flexy{
             padding-top: 5px!important;
             padding-right: 5px!important;
+            /*margin-left: 0px!important;*/
+            
         }
     /* right block (chat + suggests) */
         div#secondary.ytd-watch-flexy{
@@ -86,6 +88,10 @@
         /* title */
             yt-formatted-string.super-title.ytd-video-primary-info-renderer{
                 font-size: 0.9rem;
+            }
+        /* channel name */
+            ytd-video-owner-renderer {
+                zoom: 0.85;
             }
         /* video views */
             yt-view-count-renderer[small_]{
@@ -109,8 +115,9 @@
                 }
 
             /* buttons panel size */
-                div#info  > div:not([id='info-text']){
-                    zoom: 0.9;
+
+                div#menu{
+                    zoom: 0.7;
                 }
 
         /* sponsor, analytics, subscribe  buttons */
@@ -136,11 +143,26 @@
                 font-size: 1.2rem;
                 line-height: 1rem;
             }
+            ytd-text-inline-expander{
+                font-size: 1.2rem;
+                line-height: 1.6rem; 
+            }
         /* info box */
             ytd-metadata-row-container-renderer{
-                zoom: 0.7;
+                zoom: 0.1;
             }
-    
+        /* items */
+            div#items{
+                zoom: 0.9;
+            }
+            ytd-horizontal-card-list-renderer.ytd-structured-description-content-renderer:not(:first-child), ytd-metadata-row-container-renderer.ytd-structured-description-content-renderer:not(:first-child), ytd-structured-description-content-renderer[inline-structured-description] ytd-horizontal-card-list-renderer.ytd-structured-description-content-renderer, ytd-structured-description-content-renderer[inline-structured-description] ytd-error-corrections-section-renderer.ytd-structured-description-content-renderer, ytd-structured-description-content-renderer[inline-structured-description] ytd-video-description-infocards-section-renderer.ytd-structured-description-content-renderer{
+                border-top: 1px solid var(--yt-spec-10-percent-layer)
+            }
+
+        /* collapse button */
+            tp-yt-paper-button#collapse{
+                margin-top: 1rem;
+            }
     /* COMMENTS BLOCK*/
         /* comment counter */
             .count-text.ytd-comments-header-renderer{
