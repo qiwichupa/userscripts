@@ -1,6 +1,6 @@
 /* ==UserStyle==
 @name         Youtube Material Compact
-@version      20221101.20.58
+@version      20221107.12.32
 @namespace    userstyles.world/user/qiwichupa
 @description  An attempt to restore compactness to a new Material Youtube
 @author       qiwichupa
@@ -69,14 +69,11 @@
     /* left block (player + description + comments) */
         div#primary.ytd-watch-flexy{
             padding-top: 5px!important;
-            padding-right: 5px!important;
-            /*margin-left: 0px!important;*/
-            
         }
+
     /* right block (chat + suggests) */
         div#secondary.ytd-watch-flexy{
             padding-top: 5px!important;
-            padding-right: 5px!important;
         }
 
     /* DROPDOWN MENU */
@@ -121,7 +118,14 @@
 				#subscribe-button {
                     zoom: 0.7;
                 }
-
+        /* stat line*/
+            div#info-container.style-scope.ytd-watch-metadata{
+                margin-bottom: 6px;
+            }
+        /* description block */
+            div#description.item.style-scope.ytd-watch-metadata{
+                margin-top: 0px;
+            }
         /* description top line space */
             #top-row.ytd-video-secondary-info-renderer{
                 padding-top: 5px;
