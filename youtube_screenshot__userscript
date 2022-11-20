@@ -1,8 +1,9 @@
 // ==UserScript==
 // @name        YouTube screenshot
 // @namespace   https://github.com/qiwichupa/userscripts/blob/master/youtube_screenshot__userscript
+// @homepage    https://greasyfork.org/ru/scripts/455155-youtube-screenshot
 // @author      qiwichupa
-// @version     20221120.2107
+// @version     20221120.2147
 // @description Adds a screenshot button to YouTube video page
 // @match       *://www.youtube.com/*
 // @match       *://youtube.com/*
