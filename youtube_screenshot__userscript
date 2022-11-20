@@ -9,6 +9,7 @@
 // @run-at      document-end
 // @require     http://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js
 // @grant        none
+// @license           GNU General Public License v2.0 or later
 // ==/UserScript==
 
 this.$ = this.jQuery = jQuery.noConflict(true);
