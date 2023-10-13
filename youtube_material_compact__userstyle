@@ -1,6 +1,6 @@
 /* ==UserStyle==
 @name         Youtube Material Compact
-@version      20221107.12.32
+@version      20231013.19.24
 @namespace    userstyles.world/user/qiwichupa
 @description  An attempt to restore compactness to a new Material Youtube
 @author       qiwichupa
@@ -250,6 +250,10 @@
     /* messages width */
         yt-live-chat-text-message-renderer {
             padding: 3px 2px;
+        }
+    /* move reaction button to top corner */
+        yt-reaction-control-panel-overlay-view-model {
+            flex-direction: column;
         }
 }
 
