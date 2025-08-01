@@ -2,14 +2,14 @@
 // @name        JoyReactor Onion Links
 // @description Ссылка на onion-зеркало в шапке и под постами
 // @icon        http://joyreactor.cc/favicon.ico
-// @namespace   https://gist.github.com/qiwichupa/57881a7f962b8d626cdc748a97cb1f19
+// @namespace   https://github.com/qiwichupa/userscripts/blob/master/JoyReactor_Onion_Links
 // @require     https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js
 // @include     https://*.reactor.cc/*
 // @include     https://joyreactor.cc/*
 // @run-at      document-idle
 // @grant       GM_xmlhttpRequest
 // @grant       GM_addStyle
-// @version     2025.08.011739
+// @version     2025.08.011740
 // @author      qiwichupa
 // @run-at      document-end
 // @license      CC-BY-SA-4.0
