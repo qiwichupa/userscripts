@@ -7,7 +7,7 @@
 // @run-at        document-idle
 // @grant         GM_xmlhttpRequest
 // @grant         GM_addStyle
-// @version     20240323.25
+// @version     20240323.2501
 // @author      qiwichupa
 // @description Добавляет рейтинг, основанный на комментариях. Кликнуть на рейтинг для получения пользовательского.
 // @license       CC BY-SA
