@@ -1,13 +1,13 @@
 // ==UserScript==
 // @name        kinopoisk comments rating
-// @namespace   https://gist.github.com/qiwichupa/4e843ab13db601ac43f138700c7a3241
+// @namespace   https://github.com/qiwichupa/userscripts/blob/master/kinopoisk_comments_rating
 // @require     https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js
 // @include     https://www.kinopoisk.ru/film/*
 // @include     https://www.kinopoisk.ru/series/*
 // @run-at        document-idle
 // @grant         GM_xmlhttpRequest
 // @grant         GM_addStyle
-// @version     20240323.24
+// @version     20240323.25
 // @author      qiwichupa
 // @description Добавляет рейтинг, основанный на комментариях. Кликнуть на рейтинг для получения пользовательского.
 // @license       CC BY-SA
