@@ -9,7 +9,7 @@
 // @run-at      document-idle
 // @grant       GM_xmlhttpRequest
 // @grant       GM_addStyle
-// @version     2025.08.011740
+// @version     20250801.1740
 // @author      qiwichupa
 // @run-at      document-end
 // @license      CC-BY-SA-4.0
